@@ -1,0 +1,3 @@
+add_library(Library STATIC main.c)
+
+target_include_directories(Library PUBLIC "./")
