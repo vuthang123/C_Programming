@@ -1,0 +1,1 @@
+C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cmake.elf has a LOAD segment with RWX permissions
