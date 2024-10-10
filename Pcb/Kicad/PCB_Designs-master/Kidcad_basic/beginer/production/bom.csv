@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,BatteryHolder_Keystone_1058_1x2032,1,Battery_Cell,
+D1,LED_D5.0mm,1,LED,
+R1,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,1,R,
+SW1,SW_TH_Tactile_Omron_B3F-10xx,1,SW_DPDT_x2,

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NA555PG4")(type "KiCad")(uri "C:/Users/THANGVH3/Desktop/C_Programming/Pcb/Kicad/PCB_Designs-master/Kidcad_basic/ProjectLibrary/NA555PG4.kicad_sym")(options "")(descr ""))
+  (lib (name "NA555P")(type "KiCad")(uri "C:/Users/THANGVH3/Desktop/C_Programming/Pcb/Kicad/PCB_Designs-master/Kidcad_basic/newlib/New_Library.kicad_sym")(options "")(descr ""))
+)
