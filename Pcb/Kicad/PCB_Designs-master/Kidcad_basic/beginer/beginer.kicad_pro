@@ -463,42 +463,42 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "net_1_class",
+        "name": "power_input",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 78, 247)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.9,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 1,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "net_2_class",
+        "name": "power_output",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(92, 74, 255)",
-        "track_width": 0.7,
-        "via_diameter": 0.6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.9,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -506,16 +506,39 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/12V": "rgb(255, 0, 26)",
+      "/3.3V": "rgb(255, 10, 0)",
+      "/5V": "rgb(255, 12, 56)",
+      "/PWR_input": "rgb(124, 255, 23)",
+      "/PWR_output": "rgb(255, 246, 24)",
+      "GND": "rgb(255, 255, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "net_1_class",
-        "pattern": "net1"
+        "netclass": "power_input",
+        "pattern": "/12V"
       },
       {
-        "netclass": "net_2_class",
-        "pattern": "net2"
+        "netclass": "power_output",
+        "pattern": "/5V"
+      },
+      {
+        "netclass": "power_output",
+        "pattern": "/3.3V"
+      },
+      {
+        "netclass": "power_input",
+        "pattern": "/PWR_input"
+      },
+      {
+        "netclass": "power_output",
+        "pattern": "/PWR_output"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
       }
     ]
   },
@@ -524,7 +547,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../OUTPUT/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -656,14 +679,6 @@
     [
       "1c1ee748-2851-4e44-9ba4-33b83351618f",
       "Root"
-    ],
-    [
-      "0e2d05fb-be23-4f46-b309-550af2bbc1e9",
-      "sheetnew"
-    ],
-    [
-      "93b7822e-2e7d-47f6-a4e3-1357454ff222",
-      "sheet3"
     ]
   ],
   "text_variables": {}
