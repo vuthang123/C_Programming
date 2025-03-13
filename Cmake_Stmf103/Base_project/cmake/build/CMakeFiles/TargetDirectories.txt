@@ -1,3 +1,0 @@
-C:/Users/THANGVH3/Desktop/C_Programming/Cmake/Base_project/cmake/build/CMakeFiles/cmake.dir
-C:/Users/THANGVH3/Desktop/C_Programming/Cmake/Base_project/cmake/build/CMakeFiles/edit_cache.dir
-C:/Users/THANGVH3/Desktop/C_Programming/Cmake/Base_project/cmake/build/CMakeFiles/rebuild_cache.dir
