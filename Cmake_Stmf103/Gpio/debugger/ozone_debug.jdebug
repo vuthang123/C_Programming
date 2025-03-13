@@ -35,7 +35,7 @@ void OnProjectLoad (void) {
   
   Target.EraseChip();
               
-  File.Open ("C:/Users/THANGVH3/Desktop/C_Programming/Cmake/Base_project/cmake/build/cmake.elf");
+  File.Open ("C:/Users/thang/Desktop/C_Programming/Cmake_Stmf103/Gpio/cmake/build/cmake.elf");
 }
 
 /*********************************************************************
