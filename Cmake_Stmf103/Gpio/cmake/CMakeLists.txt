@@ -91,11 +91,11 @@ target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
 )
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
-    Core/Inc
-    Drivers/STM32F1xx_HAL_Driver/Inc
-    Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
-    Drivers/CMSIS/Device/ST/STM32F1xx/Include
-    Drivers/CMSIS/Include
+    ./Core/Inc
+    ./Drivers/STM32F1xx_HAL_Driver/Inc
+    ./Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+    ./Drivers/CMSIS/Device/ST/STM32F1xx/Include
+    ./Drivers/CMSIS/Include
 )
 
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
