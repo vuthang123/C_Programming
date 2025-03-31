@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/startup_stm32f103xb.s
+

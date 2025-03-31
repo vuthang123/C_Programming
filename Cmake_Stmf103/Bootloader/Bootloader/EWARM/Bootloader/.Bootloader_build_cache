@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Exe\Bootloader.out</Path>
+            <Output>
+                <Path>C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\List\Bootloader.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

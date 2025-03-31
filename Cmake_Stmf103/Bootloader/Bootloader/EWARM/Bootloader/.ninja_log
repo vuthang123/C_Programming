@@ -1,0 +1,23 @@
+# ninja log v5
+389	472	7649617042561174	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/EWARM_18443280873093131863.dir/startup_stm32f103xb.o	70655510723f0d42
+0	597	7649617451088906	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/Core_13247989168731456611.dir/stm32f1xx_hal_msp.o	c2fae1dd914f8097
+18	615	7649617451268375	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/CMSIS_6603591812247902717.dir/system_stm32f1xx.o	b70a9f05d43890a9
+39	735	7649617452271674	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/Core_13247989168731456611.dir/stm32f1xx_it.o	1a6106788cc01830
+25	875	7649617453731195	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_cortex.o	40097375909eaa76
+46	993	7649617454842018	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal.o	e495ec576a398ea0
+483	1032	7649617455323129	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_tim_ex.o	4046ed1d8b196513
+57	1221	7649617457277405	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_flash.o	4b7c079fd0eea9cb
+624	1407	7649617459250210	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_exti.o	b778e85c9a224f23
+883	1449	7649617459425016	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_tim.o	6ff8361ea89ad18d
+32	1488	7649617459721910	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_dma.o	7b437a84f0bc91d6
+1499	1563	7649617461063904	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/EWARM_18443280873093131863.dir/startup_stm32f103xb.o	70655510723f0d42
+607	1683	7649617462069768	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_flash_ex.o	2b7d1c39feab536b
+1038	1708	7649617462216890	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_rcc_ex.o	2534994331e7923a
+1415	1836	7649617463605589	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_gpio_ex.o	305394aa03da8fd6
+1230	1844	7649617463656012	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_pwr.o	acbc35c75e149173
+743	1919	7649617464486161	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_gpio.o	fe2f7deef17902d5
+1000	2093	7649617466219914	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_rcc.o	b43e2a72567e023c
+1461	3143	7649617476698613	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_hal_uart.o	f79d92e76e4c4e2d
+2	352	7649618397188742	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Obj/Core_13247989168731456611.dir/main.o	a8c436195df0344d
+355	606	7649618399695811	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Exe/Bootloader.out	4248d3d140c2e401
+612	644	7649618400319571	C:/Users/thang/Downloads/STM32F103C8T6-Bootloader-1/STM32F103C8T6-Bootloader-1/Bootloader/EWARM/Bootloader/Exe/Bootloader.hex	7abd279d1284c285
