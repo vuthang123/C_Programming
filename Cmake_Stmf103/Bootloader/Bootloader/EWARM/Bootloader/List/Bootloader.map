@@ -1,44 +1,44 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.60.3.422/W64 for ARM                  29/Mar/2025  21:30:39
+# IAR ELF Linker V9.60.3.422/W64 for ARM                  31/Mar/2025  21:44:06
 # Copyright 2007-2024 IAR Systems AB.
 #
 #    Output file  =
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Exe\Bootloader.out
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Exe\Bootloader.out
 #    Map file     =
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\List\Bootloader.map
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\List\Bootloader.map
 #    Command line =
 #        -f
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Exe\Bootloader.out.rsp
-#        (C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir\main.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\EWARM_18443280873093131863.dir\startup_stm32f103xb.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_cortex.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_dma.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_exti.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_flash.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_flash_ex.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_gpio.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_gpio_ex.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir\stm32f1xx_hal_msp.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_pwr.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_rcc.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_rcc_ex.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_tim.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_tim_ex.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_uart.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir\stm32f1xx_it.o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\CMSIS_6603591812247902717.dir\system_stm32f1xx.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Exe\Bootloader.out.rsp
+#        (C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir\main.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\EWARM_18443280873093131863.dir\startup_stm32f103xb.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_cortex.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_dma.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_exti.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_flash.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_flash_ex.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_gpio.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_gpio_ex.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir\stm32f1xx_hal_msp.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_pwr.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_rcc.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_rcc_ex.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_tim.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_tim_ex.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir\stm32f1xx_hal_uart.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir\stm32f1xx_it.o
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\CMSIS_6603591812247902717.dir\system_stm32f1xx.o
 #        --no_out_extension -o
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Exe\Bootloader.out
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Exe\Bootloader.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\List\Bootloader.map
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\List\Bootloader.map
 #        --config
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM/stm32f103xb_flash.icf
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM/stm32f103xb_flash.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale
 #        --cpu=Cortex-M3 --fpu=None) --dependencies=n
-#        C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Exe\Bootloader.out.iar_deps
+#        C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Exe\Bootloader.out.iar_deps
 #
 ###############################################################################
 
@@ -245,24 +245,24 @@ command line/config:
     -------------------------------------------------
     Total:
 
-C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\CMSIS_6603591812247902717.dir: [1]
+C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\CMSIS_6603591812247902717.dir: [1]
     system_stm32f1xx.o           20       10        4
     -------------------------------------------------
     Total:                       20       10        4
 
-C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir: [2]
+C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir: [2]
     main.o                      384       34       72
     stm32f1xx_hal_msp.o         184
     stm32f1xx_it.o               20
     -------------------------------------------------
     Total:                      588       34       72
 
-C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\EWARM_18443280873093131863.dir: [3]
+C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\EWARM_18443280873093131863.dir: [3]
     startup_stm32f103xb.o       424
     -------------------------------------------------
     Total:                      424
 
-C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir: [4]
+C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir: [4]
     stm32f1xx_hal.o             168        6       12
     stm32f1xx_hal_cortex.o      160
     stm32f1xx_hal_gpio.o        500
@@ -532,10 +532,10 @@ uwTickFreq              0x2000'0048    0x1  Data  Gb  stm32f1xx_hal.o [4]
 uwTickPrio              0x2000'0050    0x4  Data  Gb  stm32f1xx_hal.o [4]
 
 
-[1] = C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\CMSIS_6603591812247902717.dir
-[2] = C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir
-[3] = C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\EWARM_18443280873093131863.dir
-[4] = C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir
+[1] = C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\CMSIS_6603591812247902717.dir
+[2] = C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\Core_13247989168731456611.dir
+[3] = C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\EWARM_18443280873093131863.dir
+[4] = C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\Bootloader\Obj\STM32F1xx_HAL_Driver_9701002599162248031.dir
 [5] = dl7M_tlf.a
 [6] = m7M_tl.a
 [7] = rt7M_tl.a

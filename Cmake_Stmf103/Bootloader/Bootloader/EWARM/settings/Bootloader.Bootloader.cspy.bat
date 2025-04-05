@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\settings\Bootloader.Bootloader.general.xcl" --backend -f "C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\settings\Bootloader.Bootloader.driver.xcl" 
+"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\settings\Bootloader.Bootloader.general.xcl" --backend -f "C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\settings\Bootloader.Bootloader.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\settings\Bootloader.Bootloader.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\thang\Downloads\STM32F103C8T6-Bootloader-1\STM32F103C8T6-Bootloader-1\Bootloader\EWARM\settings\Bootloader.Bootloader.driver.xcl" 
+"C:\iar\ewarm-9.60.3\common\bin\cspybat" -f "C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\settings\Bootloader.Bootloader.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\thang\Desktop\C_Programming\Cmake_Stmf103\Bootloader\Bootloader\EWARM\settings\Bootloader.Bootloader.driver.xcl" 
 
 @echo off 
 :end
